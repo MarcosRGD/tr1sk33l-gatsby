@@ -50,7 +50,7 @@ const About = () => {
         <AboutText>
           <header>
             <Link
-              href="https://www.linkedin.com/in/bertam/"
+              href="https://www.linkedin.com/in/marcosrgomezd/"
               target="_blank"
               rel="noopener noreferrer"
             >
