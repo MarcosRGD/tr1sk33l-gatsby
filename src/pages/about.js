@@ -58,7 +58,7 @@ const About = () => {
               <LinkedIn />
             </Link>
 
-            <b>Hello, I'm Berta! Creative front-end developer.</b>
+            <b>Hello, I'm Marcos! Creative front-end developer.</b>
           </header>
           <hr />
           <p>
@@ -71,7 +71,7 @@ const About = () => {
           </p>
           <p>
             Because of unfulfilled potential about myself I decided to make a
-            career shift from finance and accounting to front-end development. I
+            career shift from administration and marketing to front-end development and infosec. I
             didn't choose it because of a decent salary and programming is not
             my hobby - it's my passion.
           </p>
@@ -88,28 +88,17 @@ const About = () => {
           <p>
             I finished full-stack studies in a{" "}
             <Link
-              href="https://bit.lt"
+              href="https://www.londonappbrewery.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Baltic Institute of Technolgy
+              London App Brewery
             </Link>{" "}
-            in 2020 January - was one of the most driven students. I was a
+            in 2018-2019 March - was one of the most driven students. I was a
             self-taught front-end enthusiast, so I mentored my classmates and
             other students at coding school with our daily tasks and homework
-            during scrum classes in the front-end module. We also got familiar
-            with OOP and Java fundamentals. My{" "}
-            <Link
-              href="https://github.com/bertamatu/springCrudApp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              final project
-            </Link>{" "}
-            was a web CRUD app, built with Spring Boot and MySQL. I enjoyed
-            working on the front-end part the most, so I decided to focus on it
-            after getting my diploma. I am getting familiar with React Js and
-            Gatsby at the moment.
+            during scrum classes in the front-end web developer. We also got familiar
+            with DOM, Node.js, Express, MongoDB and react.js.
           </p>
           <Icons>
             {/* <FaHtml5 />
