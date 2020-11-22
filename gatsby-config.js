@@ -1,11 +1,61 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `BERTA•MATU`,
+    titleTemplate: "%s · BERTA•MATU",
+    description: `PORTFOLIO. Junior front-end developer.`,
+    author: `@berta.codes`,
+    url: "https://www.bertamatu.com",
+    menuLinks: [
+      {
+        name: "HOME",
+        link: "/",
+      },
+      {
+        name: "ABOUT",
+        link: "/about",
+      },
+      {
+        name: "WORK",
+        link: "/work",
+      },
+      {
+        name: "BLOG",
+        link: "/blog",
+      },
+      {
+        name: "CONTACT",
+        link: "/contact",
+      },
+    ],
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-161952248-1",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+      },
+    },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/posts`,
+        name: `posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/projects`,
+        name: `projects`,
+      },
+    },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,10 +71,12 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
