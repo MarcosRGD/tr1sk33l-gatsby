@@ -29,23 +29,23 @@ const Contact = ({ data }) => {
           <code>Let's talk!</code>
         </h6>
         <Icons
-          href="https://www.linkedin.com/in/bertam/"
+          href="https://www.linkedin.com/in/marcosrgomezd/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedinIn />
         </Icons>
         <Icons
-          href="https://github.com/bertamatu"
+          href="https://github.com/MarcosRGD"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub />
         </Icons>
-        <Icons href="mailto:info.berta@gmail.com">
+        <Icons href="mailto:mastermind2519@gmail.com">
           <FaEnvelope />
         </Icons>
-        <Icons href="tel:+37062612836">
+        <Icons href="tel:+5547984310124">
           <FaPhoneAlt />
         </Icons>
       </ContactContainer>
