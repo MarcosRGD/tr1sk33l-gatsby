@@ -37,7 +37,7 @@ const LogoText = styled.div`
 const HomePageLogo = () => {
   return (
     <HomeLogo>
-      <LogoText>BERTAMATU</LogoText>
+      <LogoText>MARCOSRGD</LogoText>
     </HomeLogo>
   )
 }
