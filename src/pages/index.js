@@ -86,7 +86,7 @@ const IndexPage = ({ data }) => (
     <Layout>
       <SEO title="Home" />
       <HomePageLogo />
-      <Name>BERTA MATULIAUSKIENE</Name>
+      <Name>MARCOS RICARDO GOMEZ DIAZ</Name>
       <FrontEndDev>FRONT-END DEVELOPER</FrontEndDev>
       <Icons>
         <FaHtml5 />
@@ -102,7 +102,7 @@ const IndexPage = ({ data }) => (
           see my projects
         </Button>{" "}
         <Button
-          href="https://www.linkedin.com/in/bertam/"
+          href="https://www.linkedin.com/in/marcosrgomezd/"
           target="_blank"
           rel="noopener noreferrer"
         >
