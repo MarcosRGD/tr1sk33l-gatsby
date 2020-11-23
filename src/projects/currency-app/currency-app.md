@@ -2,7 +2,7 @@
 type: "project"
 slug: "/work/currency-app"
 title: "Currency exchange | React Js"
-author: "@berta.codes"
+author: "@marcosrgd"
 deploymentLink: "https://bitcoin-exchange.netlify.app/"
 githubLink: ""
 introImage: "currency_app.jpeg"
