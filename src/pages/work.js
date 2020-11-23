@@ -85,7 +85,7 @@ const Work = ({ data }) => {
     <WorkPage>
       <Projects>
         <ItemContainer>
-          <GithubLink href="https://github.com/bertamatu" target="_blank">
+          <GithubLink href="https://github.com/MarcosRGD" target="_blank">
             <GoLogoGithub
               style={{
                 fontSize: 150,
