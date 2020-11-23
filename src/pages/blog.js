@@ -134,7 +134,7 @@ const BlogPage = ({ data }) => {
         </Article>
         <BlogMenu>
           <h5>
-            HELLO! <small>/həˈləʊ,hɛˈləʊ/</small>
+            HELLO! <small>/Hola! Oi!/</small>
           </h5>
 
           <HelloMessage>
