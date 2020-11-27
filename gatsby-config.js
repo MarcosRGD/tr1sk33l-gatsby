@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `BERTA•MATU`,
-    titleTemplate: "%s · BERTA•MATU",
+    title: `MARCOS•RGDU`,
+    titleTemplate: "%s · MARCOS•RGD",
     description: `PORTFOLIO. Junior front-end developer.`,
-    author: `@berta.codes`,
-    url: "https://www.bertamatu.com",
+    author: `@marcosrgd`,
+    url: "https://www.ideceb.com.br",
     menuLinks: [
       {
         name: "HOME",
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-161952248-1",
+        trackingId: "",
         head: true,
         anonymize: true,
         respectDNT: true,
