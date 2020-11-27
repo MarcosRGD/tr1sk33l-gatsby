@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: "%s · MARCOS•RGD",
     description: `PORTFOLIO. Junior front-end developer.`,
     author: `@marcosrgd`,
-    url: "https://ideceb.com.br",
+    url: "https://ideceb.com.br/",
     menuLinks: [
       {
         name: "HOME",
