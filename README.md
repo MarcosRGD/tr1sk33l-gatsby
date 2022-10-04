@@ -25,7 +25,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and start it up..
 
     ```shell
     cd my-default-starter/
